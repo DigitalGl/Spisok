@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Список</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Список</h1>
+
+        <form action="#" id="add-form" class="mb-3">
+            <input id="add-form__name-inp" class="form-control mb-3" type="text"
+            placeholder="Имя">
+            <input id="add-form__surename-inp" class="form-control mb-3" type="text"
+            placeholder="Фамилия">
+            <input id="add-form__lastname-inp" class="form-control mb-3" type="text"
+            placeholder="Отчество">
+            <input id="add-form__age-inp" class="form-control mb-3" type="number"
+            placeholder="Возраст">
+            <input id="add-form__hobby-inp" class="form-control mb-3" type="text"
+            placeholder="Хобби">
+
+            <button type="submit" class="btn btn-primary">Добавить пользователя</button>
+        </form>
+
+        <div class="mb-3">
+            <button id="sort__fio" class="btn btn-primary">Сортировка по ФИО</button>
+            <button id="sort__age" class="btn btn-primary">Сортировка по возрасту</button>
+        </div>
+
+        <form action="#" id="filter-form" class="mb-3">
+            <h3>Фильтрация</h3>
+            <input id="filter-form__fio-inp" class="form-control mb-3" type="text"
+            placeholder="ФИО">
+            <input id="filter-form__hobby-inp" class="form-control mb-3" type="text"
+            placeholder="Хобби">
+        </form>
+
+        <div id="app">
+            
+        </div>
+    </div>
+    
+    <script defer src="js/main.js"></script>
+</body>
+</html>
