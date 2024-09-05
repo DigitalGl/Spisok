@@ -237,3 +237,4 @@ $hobbyFilterInp.addEventListener('input', function() {
     console.log("fff");
 })
 
+console.log(listData);
